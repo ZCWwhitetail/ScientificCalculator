@@ -12,6 +12,11 @@ public class MainApplication {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
+        //we need to be able to get user input on type of function and then the appropriate mathematical input
+        double testInput = 50;
+        double testResult = Scientific.cosine(testInput);
+        System.out.println(testResult);
+
         while(true) {
             System.out.println("Enter first value");
             final String value1 = scanner.nextLine();
