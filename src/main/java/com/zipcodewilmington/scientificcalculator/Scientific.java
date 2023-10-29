@@ -20,11 +20,12 @@ public class Scientific {
     }
 
     public static double memoryRecall(){
-        return memory;
+        //return memory;
+        return 0;
     }
 
     public static double sine(double input){
-        return Math.sin(input);
+        return Math.sin(Math.toRadians(input));
     }
 
     public static double cosine(double input){
@@ -59,8 +60,24 @@ public class Scientific {
     }
 
     public static double inverseLog(double input) {
-        return Math.pow(10, input);
+       // return Math.pow(10, input);
+        return 0;
     }
 
-    
+    public static double natLog(double input){
+        //
+        return 0;
+    }
+
+    public static double inverseNatLog(double input) {
+        //
+        return 0;
+    }
+
+    public static double factorial(double input) {
+        //
+        return 0;
+    }
+
+
 }
