@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 import static java.lang.Integer.*;
 
+
 /**
  * Created by leon on 2/9/18.
  */
